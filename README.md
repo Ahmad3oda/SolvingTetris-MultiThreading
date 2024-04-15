@@ -1,10 +1,8 @@
 
 # Tetris Game Solving - Using Multi-Threading in Java
 
-- This project is based on the game `Tetris`. 
-
+- This project is based on `Tetris` game. 
 - The program handles several pieces of different shapes, aiming to fit all of them into a 4x4 grid. 
-
 - The objective is to arrange the pieces without any gaps, ensuring that all the components find a suitable place within the grid.
 
 # The Workflow Procedure
