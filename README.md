@@ -7,7 +7,9 @@
 
 # The Workflow Procedure
 
-- The core concept involves implementing a `backtracking algorithm using threads`. Each thread manages its own 4x4 grid and begins by strategically placing valid pieces. Subsequently, it invokes another thread, acting as a child, to complete the process.
+- Initially, the program does a `pre-processing` to get all the valid ways to postion each piece, so that it's ready to use whenever it's needed later on during the whole excution proccess.
+  
+- The core concept involves implementing a `backtracking algorithm using threads`. Each thread manages its own 4x4 grid and begins by strategically placing valid pieces. Then, it invokes another thread, acting as a child, to complete the process.
 
 - The advantage is that the parent thread does not pause or wait for its child to finish, enabling both of them to proceed with their work concurrently. Both threads operate simultaneously, continuously adding pieces and generating children in an uninterrupted manner.
 
