@@ -17,7 +17,7 @@
 
 
 ### For more Details, Take a look at the Attached Documentation.
------
+
 ## How to use?
 
 - The program shows various letter-shaped blocks (L, T, I, O, Z, S) that can be arranged.
